@@ -1,0 +1,11 @@
+<?php namespace Genetsis\Druid\Rest\Facades;
+
+use Illuminate\Support\Facades\Facade;
+
+class RestApi extends Facade
+{
+    protected static function getFacadeAccessor()
+    {
+        return 'RestApi';
+    }
+}

@@ -1,0 +1,1124 @@
+{
+    "_embedded": {
+        "apps": [
+            {
+                "name": "Test Client",
+                "testMode": false,
+                "selfAuthorize": true,
+                "sessionRememberMe": 1209600,
+                "password": {
+                    "plain": null
+                },
+                "agency": {
+                    "name": "Genetsis",
+                    "key": "63394",
+                    "createdOn": "2016-09-22T15:50:58.000+0000"
+                },
+                "url": "http://showcase-test.pernod-ricard-espana.com/showcase",
+                "emailProjectManager": "support@dru-id.com",
+                "emailProductOwner": "support@dru-id.com",
+                "createdOn": "2016-06-17T11:36:06.000+0000",
+                "publishedOn": "2016-06-17T11:36:06.000+0000",
+                "extendedDataPermissions": [],
+                "extendedIdPermissions": [],
+                "property": {
+                    "name": "Genetsis showcase",
+                    "plainName": "genetsisshowcase",
+                    "key": "genetsisshowcase"
+                },
+                "restrictLoginByCountry": false,
+                "status": "published",
+                "key": "231705665113870",
+                "_links": {
+                    "self": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/1"
+                    },
+                    "app": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/1"
+                    },
+                    "brand": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/1/brand"
+                    },
+                    "countries": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/1/countries"
+                    },
+                    "webServices": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/1/webServices"
+                    },
+                    "grants": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/1/grants"
+                    },
+                    "role": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/1/role"
+                    },
+                    "entrypoints": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/1/entrypoints"
+                    },
+                    "urlRedirections": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/1/urlRedirections"
+                    }
+                }
+            },
+            {
+                "name": "Test Client PT",
+                "testMode": false,
+                "selfAuthorize": true,
+                "sessionRememberMe": 1209600,
+                "password": {
+                    "plain": null
+                },
+                "agency": {
+                    "name": "Genetsis",
+                    "key": "63394",
+                    "createdOn": "2016-09-22T15:50:58.000+0000"
+                },
+                "url": "http://demo.dru-id.com/showcase",
+                "emailProjectManager": "mail@mail.com",
+                "emailProductOwner": "mail@mail.com",
+                "createdOn": "2016-06-17T11:36:06.000+0000",
+                "publishedOn": "2016-06-17T11:36:06.000+0000",
+                "extendedDataPermissions": [],
+                "extendedIdPermissions": [],
+                "property": {
+                    "name": "Genetsis showcase",
+                    "plainName": "genetsisshowcase",
+                    "key": "genetsisshowcase"
+                },
+                "restrictLoginByCountry": false,
+                "status": "published",
+                "key": "408101953288409",
+                "_links": {
+                    "self": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/2"
+                    },
+                    "app": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/2"
+                    },
+                    "brand": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/2/brand"
+                    },
+                    "countries": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/2/countries"
+                    },
+                    "webServices": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/2/webServices"
+                    },
+                    "grants": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/2/grants"
+                    },
+                    "role": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/2/role"
+                    },
+                    "entrypoints": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/2/entrypoints"
+                    },
+                    "urlRedirections": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/2/urlRedirections"
+                    }
+                }
+            },
+            {
+                "name": "Test Client USA",
+                "testMode": false,
+                "selfAuthorize": true,
+                "sessionRememberMe": 1209600,
+                "password": {
+                    "plain": null
+                },
+                "agency": {
+                    "name": "Genetsis",
+                    "key": "63394",
+                    "createdOn": "2016-09-22T15:50:58.000+0000"
+                },
+                "url": "http://demo.dru-id.com/showcase",
+                "emailProjectManager": "mail@mail.com",
+                "emailProductOwner": "mail@mail.com",
+                "createdOn": "2016-06-17T11:36:06.000+0000",
+                "publishedOn": "2016-06-17T11:36:06.000+0000",
+                "extendedDataPermissions": [],
+                "extendedIdPermissions": [],
+                "property": {
+                    "name": "Genetsis showcase",
+                    "plainName": "genetsisshowcase",
+                    "key": "genetsisshowcase"
+                },
+                "restrictLoginByCountry": true,
+                "status": "published",
+                "key": "408101953288410",
+                "_links": {
+                    "self": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/3"
+                    },
+                    "app": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/3"
+                    },
+                    "brand": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/3/brand"
+                    },
+                    "countries": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/3/countries"
+                    },
+                    "webServices": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/3/webServices"
+                    },
+                    "grants": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/3/grants"
+                    },
+                    "role": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/3/role"
+                    },
+                    "entrypoints": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/3/entrypoints"
+                    },
+                    "urlRedirections": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/3/urlRedirections"
+                    }
+                }
+            },
+            {
+                "name": "Seagrams",
+                "testMode": false,
+                "selfAuthorize": true,
+                "sessionRememberMe": 1209600,
+                "password": {
+                    "plain": null
+                },
+                "agency": {
+                    "name": "Yondbee",
+                    "key": "yondb",
+                    "createdOn": "2016-09-22T15:50:58.000+0000"
+                },
+                "url": "http://experiencias.seagramsgin.es/",
+                "emailProjectManager": "andrea@yondbee.com",
+                "emailSupport": "andrea@yondbee.com",
+                "emailProductOwner": "andrea@yondbee.com",
+                "createdOn": "2016-07-28T11:11:23.705+0000",
+                "publishedOn": "2016-07-28T11:11:23.705+0000",
+                "extendedDataPermissions": [],
+                "extendedIdPermissions": [],
+                "restrictLoginByCountry": false,
+                "status": "published",
+                "key": "537506210366161",
+                "_links": {
+                    "self": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/4"
+                    },
+                    "app": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/4"
+                    },
+                    "brand": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/4/brand"
+                    },
+                    "countries": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/4/countries"
+                    },
+                    "webServices": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/4/webServices"
+                    },
+                    "grants": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/4/grants"
+                    },
+                    "role": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/4/role"
+                    },
+                    "entrypoints": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/4/entrypoints"
+                    },
+                    "urlRedirections": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/4/urlRedirections"
+                    }
+                }
+            },
+            {
+                "name": "Beefeater In-Edit (dev)",
+                "testMode": false,
+                "selfAuthorize": true,
+                "sessionRememberMe": 1209600,
+                "password": {
+                    "plain": null
+                },
+                "agency": {
+                    "name": "Genetsis",
+                    "key": "63394",
+                    "createdOn": "2016-09-22T15:50:58.000+0000"
+                },
+                "url": "http://dev.inedit.testgenetsis.com",
+                "emailSupport": "ismael.salgado@genetsis.com",
+                "createdOn": "2016-10-07T07:16:21.949+0000",
+                "publishedOn": "2016-10-07T07:16:21.949+0000",
+                "extendedDataPermissions": [],
+                "extendedIdPermissions": [],
+                "restrictLoginByCountry": false,
+                "status": "published",
+                "key": "775522164287454",
+                "_links": {
+                    "self": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/5"
+                    },
+                    "app": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/5"
+                    },
+                    "brand": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/5/brand"
+                    },
+                    "countries": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/5/countries"
+                    },
+                    "webServices": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/5/webServices"
+                    },
+                    "grants": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/5/grants"
+                    },
+                    "role": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/5/role"
+                    },
+                    "entrypoints": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/5/entrypoints"
+                    },
+                    "urlRedirections": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/5/urlRedirections"
+                    }
+                }
+            },
+            {
+                "name": "SDK Test",
+                "testMode": false,
+                "selfAuthorize": true,
+                "sessionRememberMe": 1209600,
+                "password": {
+                    "plain": null
+                },
+                "agency": {
+                    "name": "Genetsis",
+                    "key": "63394",
+                    "createdOn": "2016-09-22T15:50:58.000+0000"
+                },
+                "url": "localhost:8080/test",
+                "emailSupport": "integraciones@genetsis.com",
+                "createdOn": "2016-10-07T07:20:42.504+0000",
+                "publishedOn": "2016-10-07T07:20:42.504+0000",
+                "extendedDataPermissions": [],
+                "extendedIdPermissions": [],
+                "restrictLoginByCountry": false,
+                "status": "published",
+                "key": "744546440375149",
+                "_links": {
+                    "self": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/7"
+                    },
+                    "app": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/7"
+                    },
+                    "brand": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/7/brand"
+                    },
+                    "countries": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/7/countries"
+                    },
+                    "webServices": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/7/webServices"
+                    },
+                    "grants": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/7/grants"
+                    },
+                    "role": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/7/role"
+                    },
+                    "entrypoints": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/7/entrypoints"
+                    },
+                    "urlRedirections": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/7/urlRedirections"
+                    }
+                }
+            },
+            {
+                "name": "Opinator",
+                "testMode": false,
+                "selfAuthorize": true,
+                "sessionRememberMe": 1209600,
+                "password": {
+                    "plain": null
+                },
+                "agency": {
+                    "name": "Opinator",
+                    "key": "opina",
+                    "createdOn": "2016-09-22T15:50:58.000+0000"
+                },
+                "url": "http://dev.opinator.com/test",
+                "emailSupport": "mtoro@opinator.com",
+                "createdOn": "2016-10-07T08:15:49.525+0000",
+                "publishedOn": "2016-10-07T08:15:49.525+0000",
+                "extendedDataPermissions": [],
+                "extendedIdPermissions": [],
+                "property": {
+                    "name": "My awesome seminar",
+                    "plainName": "myawesomeseminar",
+                    "key": "myawesomeseminar"
+                },
+                "restrictLoginByCountry": false,
+                "status": "published",
+                "key": "196247750542395",
+                "_links": {
+                    "self": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/8"
+                    },
+                    "app": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/8"
+                    },
+                    "brand": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/8/brand"
+                    },
+                    "countries": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/8/countries"
+                    },
+                    "webServices": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/8/webServices"
+                    },
+                    "grants": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/8/grants"
+                    },
+                    "role": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/8/role"
+                    },
+                    "entrypoints": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/8/entrypoints"
+                    },
+                    "urlRedirections": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/8/urlRedirections"
+                    }
+                }
+            },
+            {
+                "name": "Prueba Paula",
+                "testMode": false,
+                "selfAuthorize": true,
+                "sessionRememberMe": 1209600,
+                "password": {
+                    "plain": null
+                },
+                "agency": {
+                    "name": "Genetsis",
+                    "key": "63394",
+                    "createdOn": "2016-09-22T15:50:58.000+0000"
+                },
+                "url": "www.paulaprueba.com",
+                "emailSupport": "paula.martinez@genetsis.com",
+                "createdOn": "2016-10-07T12:41:31.781+0000",
+                "publishedOn": "2016-10-07T12:41:31.781+0000",
+                "deletedOn": "2016-10-07T12:45:21.235+0000",
+                "extendedDataPermissions": [],
+                "extendedIdPermissions": [],
+                "restrictLoginByCountry": false,
+                "status": "deleted",
+                "key": "466169929804003",
+                "_links": {
+                    "self": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/9"
+                    },
+                    "app": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/9"
+                    },
+                    "brand": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/9/brand"
+                    },
+                    "countries": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/9/countries"
+                    },
+                    "webServices": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/9/webServices"
+                    },
+                    "grants": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/9/grants"
+                    },
+                    "role": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/9/role"
+                    },
+                    "entrypoints": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/9/entrypoints"
+                    },
+                    "urlRedirections": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/9/urlRedirections"
+                    }
+                }
+            },
+            {
+                "name": "Café Bar Ballantine’s",
+                "testMode": false,
+                "selfAuthorize": true,
+                "sessionRememberMe": 1209600,
+                "password": {
+                    "plain": null
+                },
+                "agency": {
+                    "name": "MPP Marketing",
+                    "key": "mppmarketing",
+                    "createdOn": "2016-09-22T15:50:58.000+0000"
+                },
+                "url": "https://dev.dragandglue.net",
+                "emailSupport": "crm@mppmarketing.com",
+                "createdOn": "2016-10-13T11:14:01.337+0000",
+                "publishedOn": "2016-10-13T11:14:01.337+0000",
+                "extendedDataPermissions": [],
+                "extendedIdPermissions": [],
+                "restrictLoginByCountry": false,
+                "status": "published",
+                "key": "075788722572128",
+                "_links": {
+                    "self": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/10"
+                    },
+                    "app": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/10"
+                    },
+                    "brand": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/10/brand"
+                    },
+                    "countries": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/10/countries"
+                    },
+                    "webServices": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/10/webServices"
+                    },
+                    "grants": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/10/grants"
+                    },
+                    "role": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/10/role"
+                    },
+                    "entrypoints": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/10/entrypoints"
+                    },
+                    "urlRedirections": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/10/urlRedirections"
+                    }
+                }
+            },
+            {
+                "name": "Beefeater In-Edit (test)",
+                "testMode": false,
+                "selfAuthorize": true,
+                "sessionRememberMe": 1209600,
+                "password": {
+                    "plain": null
+                },
+                "agency": {
+                    "name": "Genetsis",
+                    "key": "63394",
+                    "createdOn": "2016-09-22T15:50:58.000+0000"
+                },
+                "url": "http://inedit.testgenetsis.com",
+                "emailSupport": "ismael.salgado@genetsis.com",
+                "createdOn": "2016-10-13T15:31:50.705+0000",
+                "publishedOn": "2016-10-13T15:31:50.705+0000",
+                "extendedDataPermissions": [],
+                "extendedIdPermissions": [],
+                "restrictLoginByCountry": false,
+                "status": "published",
+                "key": "514258961796769",
+                "_links": {
+                    "self": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/11"
+                    },
+                    "app": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/11"
+                    },
+                    "brand": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/11/brand"
+                    },
+                    "countries": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/11/countries"
+                    },
+                    "webServices": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/11/webServices"
+                    },
+                    "grants": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/11/grants"
+                    },
+                    "role": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/11/role"
+                    },
+                    "entrypoints": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/11/entrypoints"
+                    },
+                    "urlRedirections": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/11/urlRedirections"
+                    }
+                }
+            },
+            {
+                "name": "OPINATOR_SERVER",
+                "testMode": false,
+                "selfAuthorize": true,
+                "sessionRememberMe": 1209600,
+                "password": {
+                    "plain": null
+                },
+                "agency": {
+                    "name": "Opinator",
+                    "key": "opina",
+                    "createdOn": "2016-09-22T15:50:58.000+0000"
+                },
+                "url": "http://www.opinator.com",
+                "emailSupport": "mtoro@opinator.com",
+                "createdOn": "2016-10-21T13:05:49.918+0000",
+                "publishedOn": "2016-10-21T13:05:49.918+0000",
+                "extendedDataPermissions": [],
+                "extendedIdPermissions": [],
+                "restrictLoginByCountry": false,
+                "status": "published",
+                "key": "852725690602823",
+                "_links": {
+                    "self": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/12"
+                    },
+                    "app": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/12"
+                    },
+                    "brand": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/12/brand"
+                    },
+                    "countries": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/12/countries"
+                    },
+                    "webServices": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/12/webServices"
+                    },
+                    "grants": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/12/grants"
+                    },
+                    "role": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/12/role"
+                    },
+                    "entrypoints": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/12/entrypoints"
+                    },
+                    "urlRedirections": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/12/urlRedirections"
+                    }
+                }
+            },
+            {
+                "name": "AbsolutFacet",
+                "testMode": false,
+                "selfAuthorize": true,
+                "sessionRememberMe": 1209600,
+                "password": {
+                    "plain": null
+                },
+                "agency": {
+                    "name": "Bogarti",
+                    "key": "bogar",
+                    "createdOn": "2016-09-22T15:50:58.000+0000"
+                },
+                "phoneSupport": "699058588",
+                "url": "http://www.absolut.com/es/",
+                "emailProjectManager": "frpereda@advantio.es",
+                "emailSupport": "frpereda@advantio.es",
+                "createdOn": "2016-10-25T13:41:19.297+0000",
+                "publishedOn": "2016-10-25T13:41:19.297+0000",
+                "extendedDataPermissions": [],
+                "extendedIdPermissions": [],
+                "restrictLoginByCountry": false,
+                "status": "published",
+                "key": "940172094683068",
+                "_links": {
+                    "self": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/13"
+                    },
+                    "app": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/13"
+                    },
+                    "brand": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/13/brand"
+                    },
+                    "countries": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/13/countries"
+                    },
+                    "webServices": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/13/webServices"
+                    },
+                    "grants": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/13/grants"
+                    },
+                    "role": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/13/role"
+                    },
+                    "entrypoints": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/13/entrypoints"
+                    },
+                    "urlRedirections": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/13/urlRedirections"
+                    }
+                }
+            },
+            {
+                "name": "Seagrams_AmericanCocktails",
+                "testMode": false,
+                "selfAuthorize": true,
+                "sessionRememberMe": 1209600,
+                "password": {
+                    "plain": null
+                },
+                "agency": {
+                    "name": "Bogarti",
+                    "key": "bogar",
+                    "createdOn": "2016-09-22T15:50:58.000+0000"
+                },
+                "phoneSupport": "699058588",
+                "url": "http://NativeiPhoneApp.com",
+                "emailProjectManager": "frpereda@advantio.es",
+                "emailSupport": "frpereda@advantio.es",
+                "createdOn": "2016-10-31T10:42:25.133+0000",
+                "publishedOn": "2016-10-31T10:42:25.133+0000",
+                "extendedDataPermissions": [],
+                "extendedIdPermissions": [],
+                "restrictLoginByCountry": false,
+                "status": "published",
+                "key": "333472118926804",
+                "_links": {
+                    "self": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/14"
+                    },
+                    "app": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/14"
+                    },
+                    "brand": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/14/brand"
+                    },
+                    "countries": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/14/countries"
+                    },
+                    "webServices": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/14/webServices"
+                    },
+                    "grants": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/14/grants"
+                    },
+                    "role": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/14/role"
+                    },
+                    "entrypoints": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/14/entrypoints"
+                    },
+                    "urlRedirections": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/14/urlRedirections"
+                    }
+                }
+            },
+            {
+                "name": "WP test",
+                "testMode": false,
+                "selfAuthorize": true,
+                "sessionRememberMe": 1209600,
+                "password": {
+                    "plain": null
+                },
+                "agency": {
+                    "name": "Genetsis",
+                    "key": "63394",
+                    "createdOn": "2016-09-22T15:50:58.000+0000"
+                },
+                "url": "http://wp-druid.labs.genetsis.com",
+                "emailSupport": "ismael.salgado@genetsis.com",
+                "createdOn": "2016-10-31T12:33:30.554+0000",
+                "publishedOn": "2016-10-31T12:33:30.554+0000",
+                "extendedDataPermissions": [],
+                "extendedIdPermissions": [],
+                "restrictLoginByCountry": false,
+                "status": "published",
+                "key": "178464983496131",
+                "_links": {
+                    "self": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/15"
+                    },
+                    "app": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/15"
+                    },
+                    "brand": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/15/brand"
+                    },
+                    "countries": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/15/countries"
+                    },
+                    "webServices": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/15/webServices"
+                    },
+                    "grants": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/15/grants"
+                    },
+                    "role": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/15/role"
+                    },
+                    "entrypoints": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/15/entrypoints"
+                    },
+                    "urlRedirections": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/15/urlRedirections"
+                    }
+                }
+            },
+            {
+                "name": "Seagram's Hotel DEV",
+                "testMode": false,
+                "selfAuthorize": true,
+                "sessionRememberMe": 1209600,
+                "password": {
+                    "plain": null
+                },
+                "agency": {
+                    "name": "Yondbee",
+                    "key": "yondb",
+                    "createdOn": "2016-09-22T15:50:58.000+0000"
+                },
+                "url": "http://sea.yondbee.com/nyhotel",
+                "emailProjectManager": "alejandro@yondbee.com",
+                "emailSupport": "alejandro@yondbee.com",
+                "emailProductOwner": "alejandro@yondbee.com",
+                "createdOn": "2016-11-02T16:30:20.788+0000",
+                "publishedOn": "2016-11-02T16:30:20.788+0000",
+                "extendedDataPermissions": [],
+                "extendedIdPermissions": [],
+                "property": {
+                    "name": "Seagram's Hotel",
+                    "plainName": "seagramshotel",
+                    "key": "seagramshotel"
+                },
+                "restrictLoginByCountry": false,
+                "status": "published",
+                "key": "754405548169897",
+                "_links": {
+                    "self": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/16"
+                    },
+                    "app": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/16"
+                    },
+                    "brand": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/16/brand"
+                    },
+                    "countries": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/16/countries"
+                    },
+                    "webServices": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/16/webServices"
+                    },
+                    "grants": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/16/grants"
+                    },
+                    "role": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/16/role"
+                    },
+                    "entrypoints": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/16/entrypoints"
+                    },
+                    "urlRedirections": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/16/urlRedirections"
+                    }
+                }
+            },
+            {
+                "name": "Absolut Nights",
+                "testMode": false,
+                "selfAuthorize": true,
+                "sessionRememberMe": 1209600,
+                "password": {
+                    "plain": null
+                },
+                "agency": {
+                    "name": "Yondbee",
+                    "key": "yondb",
+                    "createdOn": "2016-09-22T15:50:58.000+0000"
+                },
+                "phoneSupport": "649268153",
+                "url": "http://www.absolutnights.es",
+                "emailProjectManager": "andrea@yondbee.com",
+                "emailSupport": "andrea@yondbee.com",
+                "emailProductOwner": "andrea@yondbee.com",
+                "createdOn": "2016-12-13T12:46:38.204+0000",
+                "publishedOn": "2016-12-13T12:46:38.204+0000",
+                "extendedDataPermissions": [],
+                "extendedIdPermissions": [],
+                "restrictLoginByCountry": false,
+                "status": "published",
+                "key": "940233666438197",
+                "_links": {
+                    "self": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/17"
+                    },
+                    "app": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/17"
+                    },
+                    "brand": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/17/brand"
+                    },
+                    "countries": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/17/countries"
+                    },
+                    "webServices": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/17/webServices"
+                    },
+                    "grants": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/17/grants"
+                    },
+                    "role": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/17/role"
+                    },
+                    "entrypoints": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/17/entrypoints"
+                    },
+                    "urlRedirections": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/17/urlRedirections"
+                    }
+                }
+            },
+            {
+                "name": "Ron Funding - Viaje a Cuba",
+                "testMode": false,
+                "selfAuthorize": true,
+                "sessionRememberMe": 1209600,
+                "password": {
+                    "plain": null
+                },
+                "agency": {
+                    "name": "Ritawanda",
+                    "key": "ritawanda",
+                    "createdOn": "2016-09-22T15:50:58.000+0000"
+                },
+                "url": "http://www.ronritual.com",
+                "emailSupport": "albert@ritawanda.com",
+                "createdOn": "2016-12-13T12:57:52.842+0000",
+                "publishedOn": "2016-12-13T12:57:52.842+0000",
+                "extendedDataPermissions": [],
+                "extendedIdPermissions": [],
+                "restrictLoginByCountry": false,
+                "status": "published",
+                "key": "429599351921486",
+                "_links": {
+                    "self": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/18"
+                    },
+                    "app": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/18"
+                    },
+                    "brand": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/18/brand"
+                    },
+                    "countries": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/18/countries"
+                    },
+                    "webServices": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/18/webServices"
+                    },
+                    "grants": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/18/grants"
+                    },
+                    "role": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/18/role"
+                    },
+                    "entrypoints": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/18/entrypoints"
+                    },
+                    "urlRedirections": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/18/urlRedirections"
+                    }
+                }
+            },
+            {
+                "name": "BeefeaterXO VR",
+                "testMode": false,
+                "selfAuthorize": true,
+                "sessionRememberMe": 1209600,
+                "password": {
+                    "plain": null
+                },
+                "agency": {
+                    "name": "La Despensa",
+                    "key": "ladespensa",
+                    "createdOn": "2016-09-22T15:50:58.000+0000"
+                },
+                "url": "http://pre.beefeaterxo.com",
+                "emailProjectManager": "juana@ladespensa.es",
+                "emailSupport": "desarrollo@ladespensa.es",
+                "createdOn": "2016-12-30T10:18:13.811+0000",
+                "publishedOn": "2016-12-30T10:18:13.811+0000",
+                "extendedDataPermissions": [],
+                "extendedIdPermissions": [],
+                "restrictLoginByCountry": false,
+                "status": "published",
+                "key": "306350482799333",
+                "_links": {
+                    "self": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/19"
+                    },
+                    "app": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/19"
+                    },
+                    "brand": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/19/brand"
+                    },
+                    "countries": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/19/countries"
+                    },
+                    "webServices": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/19/webServices"
+                    },
+                    "grants": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/19/grants"
+                    },
+                    "role": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/19/role"
+                    },
+                    "entrypoints": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/19/entrypoints"
+                    },
+                    "urlRedirections": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/19/urlRedirections"
+                    }
+                }
+            },
+            {
+                "name": "Wifi Social",
+                "testMode": false,
+                "selfAuthorize": true,
+                "sessionRememberMe": 1209600,
+                "password": {
+                    "plain": null
+                },
+                "agency": {
+                    "name": "Yondbee",
+                    "key": "yondb",
+                    "createdOn": "2016-09-22T15:50:58.000+0000"
+                },
+                "phoneSupport": "andrea@yondbee.com",
+                "url": "http://socialplus.es",
+                "emailProjectManager": "andrea@yondbee.com",
+                "emailSupport": "andrea@yondbee.com",
+                "emailProductOwner": "andrea@yondbee.com",
+                "createdOn": "2017-01-05T09:51:33.558+0000",
+                "publishedOn": "2017-01-05T09:51:33.558+0000",
+                "extendedDataPermissions": [],
+                "extendedIdPermissions": [],
+                "property": {
+                    "name": "Wifi Social",
+                    "plainName": "wifisocial",
+                    "key": "wifisocial"
+                },
+                "restrictLoginByCountry": false,
+                "status": "published",
+                "key": "379989962379057",
+                "_links": {
+                    "self": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/20"
+                    },
+                    "app": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/20"
+                    },
+                    "brand": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/20/brand"
+                    },
+                    "countries": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/20/countries"
+                    },
+                    "webServices": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/20/webServices"
+                    },
+                    "grants": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/20/grants"
+                    },
+                    "role": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/20/role"
+                    },
+                    "entrypoints": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/20/entrypoints"
+                    },
+                    "urlRedirections": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/20/urlRedirections"
+                    }
+                }
+            },
+            {
+                "name": "BallantinesGinger",
+                "testMode": false,
+                "selfAuthorize": true,
+                "sessionRememberMe": 1209600,
+                "password": {
+                    "plain": null
+                },
+                "agency": {
+                    "name": "TAD Producciones",
+                    "key": "tadproducciones",
+                    "createdOn": "2016-09-22T15:50:58.000+0000"
+                },
+                "phoneSupport": "699058588",
+                "url": "http://NativeiPhoneApp.com",
+                "emailProjectManager": "frpereda@advantio.es",
+                "emailSupport": "frpereda@advantio.es",
+                "createdOn": "2017-01-25T08:43:05.224+0000",
+                "publishedOn": "2017-01-25T08:43:05.224+0000",
+                "extendedDataPermissions": [],
+                "extendedIdPermissions": [],
+                "restrictLoginByCountry": false,
+                "status": "published",
+                "key": "106760828427921",
+                "_links": {
+                    "self": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/21"
+                    },
+                    "app": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/21"
+                    },
+                    "brand": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/21/brand"
+                    },
+                    "countries": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/21/countries"
+                    },
+                    "webServices": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/21/webServices"
+                    },
+                    "grants": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/21/grants"
+                    },
+                    "role": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/21/role"
+                    },
+                    "entrypoints": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/21/entrypoints"
+                    },
+                    "urlRedirections": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/apps/21/urlRedirections"
+                    }
+                }
+            }
+        ]
+    },
+    "_links": {
+        "first": {
+            "href": "http://rest-test.pernod-ricard-espana.com/apps?page=0&size=20"
+        },
+        "self": {
+            "href": "http://rest-test.pernod-ricard-espana.com/apps{?page,size,sort}",
+            "templated": true
+        },
+        "next": {
+            "href": "http://rest-test.pernod-ricard-espana.com/apps?page=1&size=20"
+        },
+        "last": {
+            "href": "http://rest-test.pernod-ricard-espana.com/apps?page=11&size=20"
+        },
+        "profile": {
+            "href": "http://rest-test.pernod-ricard-espana.com/profile/apps"
+        },
+        "search": {
+            "href": "http://rest-test.pernod-ricard-espana.com/apps/search"
+        }
+    },
+    "page": {
+        "size": 20,
+        "totalElements": 230,
+        "totalPages": 12,
+        "number": 0
+    }
+}

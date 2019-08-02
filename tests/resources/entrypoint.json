@@ -1,0 +1,133 @@
+{
+    "_embedded": {
+        "entrypoints": [
+            {
+                "description": "Rotation Parties App Default",
+                "main": true,
+                "url": "http://rotationparty.dev.pr.com",
+                "createdOn": "2019-02-07T10:37:09.782+0000",
+                "key": "358938161304888-rotationpartiesapp",
+                "config_id": [
+                    {
+                        "editable": false,
+                        "mandatory": true,
+                        "main": true,
+                        "need_confirmation": true,
+                        "used_as_validation_field_in_two_step_registration": false,
+                        "field_type": "email",
+                        "field": {
+                            "name": "email",
+                            "createdOn": "2016-06-16T11:01:51.078+0000",
+                            "maxlength": 80,
+                            "order": 5,
+                            "channel": {
+                                "name": "email"
+                            },
+                            "idFieldType": "email",
+                            "confirmable": true,
+                            "editable": true,
+                            "social": false
+                        },
+                        "_links": {
+                            "entrypoint": {
+                                "href": "http://rest-test.pernod-ricard-espana.com/entrypoints/447"
+                            }
+                        }
+                    }
+                ],
+                "config_field": [
+                    {
+                        "editable": true,
+                        "mandatory": true,
+                        "used_as_validation_field_in_two_step_registration": false,
+                        "extra_field_in_two_step_registration": false,
+                        "field": {
+                            "createdOn": "2016-06-16T11:01:51.814+0000",
+                            "maxlength": 50,
+                            "order": 20,
+                            "key": "name",
+                            "type": {},
+                            "unique": false,
+                            "visible": true,
+                            "editable": true
+                        },
+                        "_links": {
+                            "entrypoint": {
+                                "href": "http://rest-test.pernod-ricard-espana.com/entrypoints/447"
+                            },
+                            "typologyField": {
+                                "href": "http://rest-test.pernod-ricard-espana.com/typologyFields/1"
+                            }
+                        }
+                    },
+                    {
+                        "editable": false,
+                        "mandatory": true,
+                        "used_as_validation_field_in_two_step_registration": false,
+                        "extra_field_in_two_step_registration": false,
+                        "field": {
+                            "createdOn": "2016-06-16T11:01:51.814+0000",
+                            "maxlength": 10,
+                            "order": 100,
+                            "key": "birthday",
+                            "type": {
+                                "clazz": "com.genetsis.gid.core.datatype.Date"
+                            },
+                            "unique": false,
+                            "visible": true,
+                            "editable": true
+                        },
+                        "_links": {
+                            "entrypoint": {
+                                "href": "http://rest-test.pernod-ricard-espana.com/entrypoints/447"
+                            },
+                            "typologyField": {
+                                "href": "http://rest-test.pernod-ricard-espana.com/typologyFields/11"
+                            }
+                        }
+                    }
+                ],
+                "config_assertion": [],
+                "restrict_login_based_on_typology": false,
+                "register_in_two_steps": true,
+                "register_assisted": true,
+                "passwordless_register": false,
+                "live_event": false,
+                "_links": {
+                    "self": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/entrypoints/447"
+                    },
+                    "entrypoint": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/entrypoints/447"
+                    },
+                    "registerTypology": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/entrypoints/447/registerTypology"
+                    },
+                    "app": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/entrypoints/447/app"
+                    },
+                    "workTypology": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/entrypoints/447/workTypology"
+                    },
+                    "platform": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/entrypoints/447/platform"
+                    },
+                    "program": {
+                        "href": "http://rest-test.pernod-ricard-espana.com/entrypoints/447/program"
+                    }
+                }
+            }
+        ]
+    },
+    "_links": {
+        "self": {
+            "href": "http://rest-test.pernod-ricard-espana.com/entrypoints/search/byApp?app=358938161304888&page=0&size=20"
+        }
+    },
+    "page": {
+        "size": 20,
+        "totalElements": 1,
+        "totalPages": 1,
+        "number": 0
+    }
+}
