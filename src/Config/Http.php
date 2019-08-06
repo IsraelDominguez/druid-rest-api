@@ -37,7 +37,8 @@ class Http extends AbstractConfig
         $http_client = new Client([
             'base_uri' => $options['api_host'],
             'handler' => $stack,
-            'http_errors' => false
+            'http_errors' => false,
+            'verify' => false
         ]);
 
 //        return new Client(
