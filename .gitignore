@@ -2,7 +2,6 @@ bin
 build
 composer.phar
 composer.lock
-phpunit.xml
 vendor
 .env
 .phpcs.xml
@@ -10,3 +9,4 @@ phpcs.xml
 .idea/*
 /vendor/
 .git
+druid-rest.log

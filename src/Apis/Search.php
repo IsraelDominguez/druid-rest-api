@@ -1,9 +1,8 @@
 <?php namespace Genetsis\Druid\Rest\Apis;
 
+use Genetsis\Druid\Rest\Apis\Contracts\HalContract;
 use Genetsis\Druid\Rest\Config\RestConfig;
 use Genetsis\Druid\Rest\Resources\HalResponse;
-use JMS\Serializer\SerializerBuilder;
-use PhpHal\Format\Reader\Hal\JsonReader;
 
 class Search extends HalApi implements HalContract
 {

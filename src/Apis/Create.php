@@ -1,6 +1,8 @@
 <?php namespace Genetsis\Druid\Rest\Apis;
 
+use Genetsis\Druid\Rest\Apis\Contracts\HalContract;
 use Genetsis\Druid\Rest\Config\RestConfig;
+use Genetsis\Druid\Rest\Exceptions\RestApiException;
 use JMS\Serializer\SerializerBuilder;
 use PhpHal\Format\Reader\Hal\JsonReader;
 
@@ -28,24 +30,28 @@ class Create extends HalApi implements HalContract
 
     /**
      * @param string $uri
-     * @param array $arguments
-     * @return array
+     * @param array|null $arguments
+     * @return \Genetsis\Druid\Rest\Resources\HalResponse
+     * @throws RestApiException
      * @throws \GuzzleHttp\Exception\GuzzleException
      */
     public function get(string $uri, array $arguments = null)
     {
         $this->getFullClass($uri);
 
-        dd($arguments);
+        $this->http_options['body'] = \GuzzleHttp\json_encode($arguments);
 
-//        $response = $this->rest_config->getHttp()->request(
-//            'GET',
-//            $this->appendQuery("/{$uri}/search/by".ucfirst(array_key_first($arguments)), array_merge($this->getAllParams(), $arguments)),
-//            $this->http_options
-//        );
+        $response = $this->rest_config->getHttp()->request(
+            'POST',
+            "/{$uri}",
+            $this->http_options
+        );
 
-        //return $this->hal_transform->transform($uri, $response->getBody());
+        if ($response->getStatusCode() !== 201) {
+            throw new RestApiException('Error creating EntryPoint: '. $response->getBody());
+        }
 
+        return $response->getHeaderLine('Location');
     }
 
 }

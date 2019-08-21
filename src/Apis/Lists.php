@@ -1,5 +1,6 @@
 <?php namespace Genetsis\Druid\Rest\Apis;
 
+use Genetsis\Druid\Rest\Apis\Contracts\HalContract;
 use Genetsis\Druid\Rest\Config\RestConfig;
 use Genetsis\Druid\Rest\Resources\HalResponse;
 

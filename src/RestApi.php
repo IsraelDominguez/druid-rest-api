@@ -22,6 +22,7 @@ use Genetsis\Druid\Rest\Security\AuthCredentials;
  * @method \Genetsis\Druid\Rest\RestApi searchEntrypointsBy($array_search)
  * @method \Genetsis\Druid\Rest\RestApi searchAppsBy($array_search)
  * @method \Genetsis\Druid\Rest\RestApi createEntrypoints($array_data)
+ * @method \Genetsis\Druid\Rest\RestApi deleteEntrypoints($array_data)
  *
  *
  *
@@ -107,6 +108,10 @@ class RestApi
             $uri = $matches[1];
         }
 
+        if (preg_match('/^delete(\w+)/', $methodName, $matches)) {
+            $hal_api = new \Genetsis\Druid\Rest\Apis\Delete($this->getConfig());
+            $uri = $matches[1];
+        }
         return $hal_api->get(lcfirst($uri), $methodArguments);
     }
 
