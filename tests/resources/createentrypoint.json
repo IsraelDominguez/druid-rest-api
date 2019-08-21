@@ -1,0 +1,38 @@
+{
+    "app": "http://rest.dev.dru-id.com/apps/1",
+    "key": "111111111111111-jarlss4",
+    "description": "Jander klander Entrypoint",
+    "main": false,
+    "url": "http://demo.dru-id.com/showcase",
+    "restrict_login_based_on_typology": false,
+    "register_in_two_steps": false,
+    "register_assisted": false,
+    "passwordless_register": false,
+    "live_event": false,
+    "platform": "http://rest.dev.dru-id.com/platforms/1",
+    "workTypology": "http://rest.dev.dru-id.com/typologies/1",
+    "registerTypology" : "http://rest.dev.dru-id.com/typologies/3",
+    "config_id": [
+        {
+            "mandatory": true,
+            "main": true,
+            "need_confirmation": true,
+            "used_as_validation_field_in_two_step_registration": false,
+            "field_type": "email"
+        }
+    ],
+    "config_field": [
+        {
+            "mandatory": true,
+            "used_as_validation_field_in_two_step_registration": false,
+            "extra_field_in_two_step_registration": false,
+            "typologyField": "http://rest.dev.dru-id.com/typologyFields/1"
+        },
+        {
+            "mandatory": true,
+            "used_as_validation_field_in_two_step_registration": false,
+            "extra_field_in_two_step_registration": false,
+            "typologyField": "http://rest.dev.dru-id.com/typologyFields/11"
+        }
+    ]
+}

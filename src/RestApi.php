@@ -4,6 +4,7 @@
 use Genetsis\Druid\Rest\Config\ConfigFactory;
 use Genetsis\Druid\Rest\Config\RestConfig;
 use Genetsis\Druid\Rest\Config\Security;
+use Genetsis\Druid\Rest\Resources\HalResponse;
 use Genetsis\Druid\Rest\Security\AuthCredentials;
 
 /**
@@ -19,6 +20,8 @@ use Genetsis\Druid\Rest\Security\AuthCredentials;
  * @method \Genetsis\Druid\Rest\RestApi getEntrypoints()
  * @method \Genetsis\Druid\Rest\RestApi getTypologyFields()
  * @method \Genetsis\Druid\Rest\RestApi searchEntrypointsBy($array_search)
+ * @method \Genetsis\Druid\Rest\RestApi searchAppsBy($array_search)
+ * @method \Genetsis\Druid\Rest\RestApi createEntrypoints($array_data)
  *
  *
  *
@@ -79,7 +82,7 @@ class RestApi
      *
      * @param $methodName
      * @param array $methodArguments
-     * @return array
+     * @return HalResponse
      * @throws \GuzzleHttp\Exception\GuzzleException
      */
     public function __call($methodName, array $methodArguments)
@@ -96,6 +99,11 @@ class RestApi
 
         if (preg_match('/^search(\w+)By/', $methodName, $matches)) {
             $hal_api = new \Genetsis\Druid\Rest\Apis\Search($this->getConfig());
+            $uri = $matches[1];
+        }
+
+        if (preg_match('/^create(\w+)/', $methodName, $matches)) {
+            $hal_api = new \Genetsis\Druid\Rest\Apis\Create($this->getConfig());
             $uri = $matches[1];
         }
 

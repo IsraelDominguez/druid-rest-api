@@ -11,7 +11,7 @@ final class ApiTest extends InitTest
     public function testGetBrands() {
         $brands = $this->api->getBrands();
         $this->assertIsArray($brands->getResources('brands'));
-        $this->assertEquals(25,count($brands->getResources('brands')));
+        $this->assertEquals(26,count($brands->getResources('brands')));
         $this->assertInstanceOf(Brand::class, $brands->getResources('brands')[0]);
     }
 

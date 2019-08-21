@@ -1,6 +1,7 @@
 <?php namespace Genetsis\Druid\Rest\Apis;
 
 use Genetsis\Druid\Rest\Config\RestConfig;
+use Genetsis\Druid\Rest\Resources\HalResponse;
 use JMS\Serializer\SerializerBuilder;
 use PhpHal\Format\Reader\Hal\JsonReader;
 
@@ -29,7 +30,7 @@ class Search extends HalApi implements HalContract
     /**
      * @param string $uri
      * @param array $arguments
-     * @return array
+     * @return HalResponse
      * @throws \GuzzleHttp\Exception\GuzzleException
      */
     public function get(string $uri, array $arguments = null)
