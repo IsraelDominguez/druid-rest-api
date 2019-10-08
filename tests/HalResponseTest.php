@@ -39,6 +39,17 @@ final class HalResponseTest extends InitTest
         $this->assertNull($result->getResources('nothingToGet'));
     }
 
+    public function testGetOneEntryPointWithoutIdField() {
+        $result = $this->hal_response->transform('entrypoints', $this->readResource('entrypoint_without_idfield.json'));
+        $this->assertInstanceOf(HalResponse::class, $result);
+        $this->assertInstanceOf(Entrypoint::class, $result->getResources('entrypoints')[0]);
+
+        $this->assertNotEmpty($result->getResources('entrypoints')[0]->getConfigField());
+        $this->assertNotEmpty($result->getResources('entrypoints')[0]->getConfigId());
+
+        $this->assertNull($result->getResources('nothingToGet'));
+    }
+
     public function testGetAllResources() {
         $result = $this->hal_response->transform('apps', $this->readResource('apps.json'));
         $this->assertIsArray($result->getResources('apps'));

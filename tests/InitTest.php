@@ -7,9 +7,9 @@ use Symfony\Component\Routing\Exception\InvalidParameterException;
 abstract class InitTest extends TestCase
 {
 
-    protected $username = "358938161304888";
-    protected $password = "v6LnFa9wPujyd1nuFdz2mziaaVvznq";
-    protected $api_host = "https://rest-test.pernod-ricard-espana.com";
+    protected $username = "609975803614572";
+    protected $password = "NIfbbB773AjEIaM8LAz4JuixR7XFZu";
+    protected $api_host = "https://rest.test.id.sevillafc.es";
 
     /**
      * @var \Genetsis\Druid\Rest\RestApi

@@ -66,14 +66,14 @@ final class CreateTest extends TestCase
                         'mandatory' => true,
                         'used_as_validation_field_in_two_step_registration' => false,
                         'extra_field_in_two_step_registration' => false,
-                        'typologyField' => env('DRUID_REST_HOST').'/typologyFields/1'
+                        'typologyField' => $this->api_host.'/typologyFields/1'
                     ],
                     // Surname
                     [
                         'mandatory' => true,
                         'used_as_validation_field_in_two_step_registration' => false,
                         'extra_field_in_two_step_registration' => false,
-                        'typologyField' => env('DRUID_REST_HOST').'/typologyFields/2',
+                        'typologyField' => $this->api_host.'/typologyFields/2',
                     ],
                     // Birthday
                     [

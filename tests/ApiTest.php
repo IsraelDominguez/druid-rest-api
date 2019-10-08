@@ -36,9 +36,12 @@ final class ApiTest extends InitTest
     }
 
     public function testGetAllEntrypointsByApp() {
-        $entrypoints = $this->api->searchEntrypointsBy(['app' => '358938161304888']);
+        $entrypoints = $this->api->searchEntrypointsBy(['app' => '609975803614572']);
         $this->assertIsArray($entrypoints->getResources('entrypoints'));
-        $this->assertInstanceOf(Entrypoint::class, $entrypoints->getResources('entrypoints')[0]);
+
+        foreach ($entrypoints->getResources('entrypoints') as $entrypoint) {
+            $this->assertInstanceOf(Entrypoint::class, $entrypoint);
+        }
     }
 
     public function testGetEntrypointsEmptyIFAppNotExist() {

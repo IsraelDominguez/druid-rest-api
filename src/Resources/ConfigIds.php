@@ -29,9 +29,9 @@ class ConfigIds extends Resource implements ResourceInterface
     protected $editable;
 
     /**
-     * @return TypologyFields
+     * @return TypologyFields|null
      */
-    public function getField(): TypologyFields
+    public function getField(): ?TypologyFields
     {
         return $this->field;
     }
