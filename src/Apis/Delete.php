@@ -38,14 +38,16 @@ class Delete extends HalApi implements HalContract
     {
         $this->getFullClass($uri);
 
+        $endpoint = $arguments['link'] ?? '/{$uri}/'.$arguments['id'];
+
         $response = $this->rest_config->getHttp()->request(
             'DELETE',
-            "/{$uri}/".$arguments['id'],
+            $endpoint,
             $this->http_options
         );
 
         if ($response->getStatusCode() !== 204) {
-            throw new RestApiException('Error deleting EntryPoint: '. $response->getStatusCode());
+            throw new RestApiException('Error deleting: '. $response->getStatusCode());
         }
         return true;
     }

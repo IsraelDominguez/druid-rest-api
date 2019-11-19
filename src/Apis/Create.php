@@ -4,7 +4,6 @@ use Genetsis\Druid\Rest\Apis\Contracts\HalContract;
 use Genetsis\Druid\Rest\Config\RestConfig;
 use Genetsis\Druid\Rest\Exceptions\RestApiException;
 use JMS\Serializer\SerializerBuilder;
-use PhpHal\Format\Reader\Hal\JsonReader;
 
 class Create extends HalApi implements HalContract
 {

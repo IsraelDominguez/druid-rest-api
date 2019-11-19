@@ -245,5 +245,4 @@ class Entrypoint extends Resource implements ResourceInterface
         return $this;
     }
 
-
 }

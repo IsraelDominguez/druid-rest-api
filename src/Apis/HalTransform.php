@@ -4,6 +4,7 @@
 use Doctrine\Common\Annotations\AnnotationRegistry;
 use Genetsis\Druid\Rest\Resources\Entrypoint;
 use Genetsis\Druid\Rest\Resources\HalResponse;
+use Genetsis\Druid\Rest\Resources\Link;
 use Genetsis\Druid\Rest\Resources\Page;
 use Genetsis\Druid\Rest\Resources\Resource;
 use Genetsis\Druid\Rest\Resources\ResourceInterface;
@@ -19,6 +20,9 @@ class HalTransform
     const PAGE = 'page';
 
     const LINK_KEY_HREF = 'href';
+    const LINK_KEY_TEMPLATED = 'templated';
+    const LINK_KEY_NAME = 'name';
+    const LINK_KEY_LANG = 'hreflang';
     const LINK_KEY_TITLE = 'title';
 
     const PAGE_SIZE = 'size';
@@ -55,7 +59,6 @@ class HalTransform
         isset($response[self::KEY_EMBEDDED]) && $this->transformEmbedded($hal_response, $response[self::KEY_EMBEDDED]);
 
         $hal_response->setData($this->doTransformEmbedded($hal_response->getClass(), $response));
-
     }
 
     /**
@@ -85,8 +88,16 @@ class HalTransform
      * @return ResourceInterface
      */
     protected function doTransformEmbedded(string $key, array $data){
+
         $jsonObject = $this->serializer->serialize($data, 'json');
         $resource = $this->serializer->deserialize($jsonObject, $this->getResourceClass($key),'json');
+        if (isset($data[self::KEY_LINKS])) {
+            $links = [];
+            foreach ($data[self::KEY_LINKS] as $rel => $data) {
+                $links[$rel] = new Link($rel, $data['href']);
+            }
+            $resource->setLinks($links);
+        }
 
         return $resource;
     }
@@ -117,14 +128,6 @@ class HalTransform
                 $this->transformSelfLink($hal_response, $data);
                 continue;
             }
-//
-//            if ($this->isAssocArray($data)) {
-//                $link = $this->doTransformLink($data);
-//                $resource->setLink($rel, $link);
-//            } else {
-//                $links = $this->doTransformLinks($data);
-//                $resource->setLinks($rel, $links);
-//            }
         }
     }
 

@@ -11,7 +11,7 @@ final class ApiTest extends InitTest
     public function testGetBrands() {
         $brands = $this->api->getBrands();
         $this->assertIsArray($brands->getResources('brands'));
-        $this->assertEquals(26,count($brands->getResources('brands')));
+        $this->assertEquals(1,count($brands->getResources('brands')));
         $this->assertInstanceOf(Brand::class, $brands->getResources('brands')[0]);
     }
 
@@ -36,7 +36,7 @@ final class ApiTest extends InitTest
     }
 
     public function testGetAllEntrypointsByApp() {
-        $entrypoints = $this->api->searchEntrypointsBy(['app' => '609975803614572']);
+        $entrypoints = $this->api->searchEntrypointsBy(['app' => $this->app_id]);
         $this->assertIsArray($entrypoints->getResources('entrypoints'));
 
         foreach ($entrypoints->getResources('entrypoints') as $entrypoint) {
@@ -51,10 +51,12 @@ final class ApiTest extends InitTest
     }
 
     public function testGetEntrypointsByKey() {
-        $entrypoints = $this->api->searchEntrypointsBy(['key' => '358938161304888-rotationpartiesapp']);
+        $entrypoints = $this->api->searchEntrypointsBy(['key' => $this->entrypoint_key]);
         $this->assertInstanceOf(Entrypoint::class, $entrypoints->getData());
 
-        print_r($entrypoints->getData());
+        $entrypoint = $entrypoints->getData();
+
+        print_r($entrypoint->getLinkByType('self'));
     }
 
     /**

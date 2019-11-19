@@ -4,16 +4,12 @@ use Cache\Adapter\Void\VoidCachePool;
 use Genetsis\Druid\Rest\Apis\HalTransform;
 use PHPUnit\Framework\TestCase;
 
-final class CreateTest extends TestCase
+final class CreateTest extends InitTest
 {
     /**
      * @var HalTransform
      */
     protected $hal_response;
-
-    protected $username = '609975803614572';
-    protected $password = 'NIfbbB773AjEIaM8LAz4JuixR7XFZu';
-    protected $api_host = 'https://rest.test.id.sevillafc.es';
 
     /**
      * @var \Genetsis\Druid\Rest\RestApi
@@ -24,13 +20,7 @@ final class CreateTest extends TestCase
 
     public function setUp()
     {
-        $this->api = new \Genetsis\Druid\Rest\RestApi([
-            'username' => $this->username,
-            'password' => $this->password,
-            'api_host' => $this->api_host,
-        ],[
-            'cache' => new VoidCachePool()
-        ]);
+        parent::setUp();
 
         $this->hal_response = new HalTransform();
 
@@ -139,7 +129,7 @@ final class CreateTest extends TestCase
      * @expectedException \Genetsis\Druid\Rest\Exceptions\RestApiException
      */
     public function testCreateEntrypointFail() {
-        $this->entrypoints_data['default']['app'] = $this->api_host.'/apps/14';
+        $this->entrypoints_data['default']['app'] = $this->app_link;
         $this->entrypoints_data['default']['key'] = 'una-key-de-prueba-simple';
         $this->entrypoints_data['default']['description'] = 'La Descripción del Entrypoint Simple';
         $this->entrypoints_data['default']['url'] = 'https://mi-app.com';
@@ -157,8 +147,8 @@ final class CreateTest extends TestCase
     }
 
     public function testCreateEntrypointSimple() {
-        $this->entrypoints_data['default']['app'] = $this->api_host.'/apps/14';
-        $this->entrypoints_data['default']['key'] = $this->username.'-una-key-de-prueba-simple';
+        $this->entrypoints_data['default']['app'] = $this->app_link;
+        $this->entrypoints_data['default']['key'] = $this->username.'-key-de-prueba-simple';
         $this->entrypoints_data['default']['description'] = 'La Descripción del Entrypoint Simple';
         $this->entrypoints_data['default']['url'] = 'https://mi-app.com';
 
@@ -166,11 +156,10 @@ final class CreateTest extends TestCase
         $entrypoint = $this->api->createEntrypoints($entrypoint_data);
 
         $this->assertStringStartsWith($this->api_host. '/entrypoints/', $entrypoint);
+
+        $this->assertTrue($this->api->deleteEntrypoints(['link' => $entrypoint]));
     }
 
-    public function testDeleteEntrypoint() {
-        $this->assertTrue($this->api->deleteEntrypoints(['id' => 31]));
-    }
 
     /**
      * @expectedException \Genetsis\Druid\Rest\Exceptions\RestApiException
@@ -180,8 +169,8 @@ final class CreateTest extends TestCase
     }
 
     public function testCreateEntrypointComplete() {
-        $this->entrypoints_data['default']['app'] = $this->api_host.'/apps/14';
-        $this->entrypoints_data['default']['key'] = $this->username.'-una-key-de-prueba-complete';
+        $this->entrypoints_data['default']['app'] = $this->app_link;
+        $this->entrypoints_data['default']['key'] = $this->username.'-key-de-prueba-complete-2';
         $this->entrypoints_data['default']['description'] = 'La Descripción del Entrypoint Complete';
         $this->entrypoints_data['default']['url'] = 'https://mi-app.com';
 
@@ -190,6 +179,8 @@ final class CreateTest extends TestCase
         $entrypoint = $this->api->createEntrypoints($entrypoint_data);
 
         $this->assertStringStartsWith($this->api_host. '/entrypoints/', $entrypoint);
+
+        $this->assertTrue($this->api->deleteEntrypoints(['link' => $entrypoint]));
     }
 
     public function readResource($filename)

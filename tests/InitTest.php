@@ -11,6 +11,13 @@ abstract class InitTest extends TestCase
     protected $password = "NIfbbB773AjEIaM8LAz4JuixR7XFZu";
     protected $api_host = "https://rest.test.id.sevillafc.es";
 
+    // Pernod: 358938161304888-rotationpartiesapp
+    public $entrypoint_key = '609975803614572-promocion-simple-de-sevilla-fc';
+
+    public $app_id = '609975803614572';
+
+    public $app_link = 'https://rest.test.id.sevillafc.es/apps/14';
+
     /**
      * @var \Genetsis\Druid\Rest\RestApi
      */
